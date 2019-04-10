@@ -1,0 +1,21 @@
+{
+  "name": "starterpack-lilamckenna",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/dartmouth-cs52-19S/starterpack-lilamckenna.git",
+  "author": "lilamckenna <lila.20@dartmouth.edu>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  },
+  "dependencies": {
+    "dist": "^0.1.2",
+    "jquery": "^3.4.0"
+  }
+}

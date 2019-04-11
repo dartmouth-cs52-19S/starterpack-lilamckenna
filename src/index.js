@@ -1,3 +1,1 @@
-const $ = require('jquery');
-
-$('#main').html('Here we go!');
+console.log('starting up!');
